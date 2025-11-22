@@ -13,10 +13,8 @@ const HeroSection = () => {
   return (
     <section className="relative w-full h-screen flex flex-col items-center">
       
-      {/* Navbar with search callback */}
       <Navbar onSearchClick={handleSearchClick} />
 
-      {/* Background Image */}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${HeroImage})` }}
@@ -25,7 +23,6 @@ const HeroSection = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-orange-600/50 z-10"></div>
 
-      {/* Search Bar (appears below Navbar) */}
      {showSearch && (
   <div className="absolute top-24 md:w-90 w-80 h-10 flex justify-center z-20">
     <div className="flex border border-white bg-black/80 max-w-xl w-full">
@@ -40,9 +37,6 @@ const HeroSection = () => {
     </div>
   </div>
 )}
-
-
-      {/* Hero Content */}
       <div className="relative z-20 text-center text-white px-4 mt-auto mb-auto">
         <h1 className="text-3xl md:text-4xl mb-4 ">
           <span className=" font-[TimesNew Roman]">We generate </span>
