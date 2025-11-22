@@ -1,0 +1,2 @@
+- [ ] Reduce left section padding from px-40 to px-4 in Navbar.jsx
+- [ ] Combine right articles/videos and search into one div with px-4 and gap-3
