@@ -39,12 +39,12 @@ const HeroSection = () => {
 )}
       <div className="relative z-20 text-center text-white px-4 mt-auto mb-auto">
         <h1 className="text-3xl md:text-4xl mb-4 ">
-          <span className=" font-[TimesNew Roman]">We generate </span>
-          <span className="font-[Piazolla]">new ways </span>
-          <span className=" ">of thinking about </span>
+          <span className=" tracking-wide">We generate </span>
+          <span className="font-[piazzolla]">new ways </span>
+          <span className=" font-clash">of thinking about </span>
           <span className="md:block font-bold ">energy and culture.</span>
         </h1>
-        <button className="bg-green-400 hover:bg-green-600 text-white uppercase text-sm px-3 py-1 font-semibold">
+        <button className="bg-green-400 hover:bg-green-600 text-white uppercase text-sm px-3 py-1 font-semibold ">
           Latest Articles
         </button>
       </div>

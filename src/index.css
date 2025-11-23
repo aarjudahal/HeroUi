@@ -1,1 +1,21 @@
+
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("/fonts/OTF/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 700;
+}
+body {
+  font-family: "Clash Display", sans-serif;
+}
+/*
+@font-face {
+  font-family: "Piazzolla";
+  src: url("/WEB/Piazzolla-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+

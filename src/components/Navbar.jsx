@@ -24,8 +24,8 @@ const Navbar = ({ onSearchClick }) => {
 
       <div className="relative flex-1 flex justify-center items-center">
          <span className="absolute w-16 h-16 bg-green-400 rounded-full left-1/2 transform -translate-x-1/2"></span>
-         <h1 className="text-3xl font-semibold text-center relative">
-           Energy<span className="ml-2 font-[Piazzolla]">Humanities</span>
+         <h1 className="text-3xl font-bold text-center relative">
+          Energy<span className="ml-2 tracking-wider ">Humanities</span>
          </h1>
       </div>
 
