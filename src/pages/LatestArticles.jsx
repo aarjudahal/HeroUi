@@ -3,27 +3,26 @@ import React from "react";
 const LatestArticles = () => {
   return (
     
-    <div className="bg-[rgb(247,245,243)] min-h-screen px-6 md:px-40 py-10">
+    <div className="bg-white min-h-screen px-6 md:px-40 py-10">
       {/* Header */} 
       <h1 className="text-4xl md:text-5xl font-semibold text-left md:text-center text-[#121212]">
         Latest articles
       </h1>
-      <p className="text-left md:text-center mt-3 text-gray-700 md:text-lg">
+      <p className="text-left md:text-center mt-3 text-gray-700 md:text-lg font-medium">
         We publish cutting-edge energy humanities research and news.
       </p>
 
       {/* Main Articles */}
       <div className="mt-8 space-y-10">
         {/* ARTICLE 1 */}
-        <div className="flex flex-col md:flex-row md:justify-between items-start gap-7 border-b border-black/30 pb-3 ">
+        <div className="flex flex-col md:flex-row md:justify-between items-start gap-7 border-b border-black/30 pb-3  mt-20 ">
           {/* Text Container */}
           <div className="flex flex-col justify-start items-start">
-            <p className="text-sm text-gray-500  uppercase">November 12, 2025</p>
-            <h2 className="text-2xl md:text-3xl mt-2 font-semibold ">
-              The Lithium Energy Colony: Introducing 
+            <p className="text-sm text-black/60 uppercase font-sans tracking-wider">November 12, 2025</p>
+            <h2 className="text-2xl md:text-2xl mt-2 font-semibold ">
+              The Lithium Energy Colony:
             </h2>
-            <h2>
-           “Mining for the Climate” Season 2 </h2>
+            <h2 className="text-2xl md:text-2xl mt-2 font-semibold"> Introducing “Mining for the Climate” Season 2 </h2>
             <p className="mt-4 text-gray-800 font-medium">Nate Otjen</p>
           </div>
 
@@ -42,12 +41,10 @@ const LatestArticles = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-7 border-b border-black/30 pb-3 ">
           {/* Text Container */}
           <div className="flex flex-col justify-start items-start">
-            <p className="text-sm text-gray-500 uppercase">November 3, 2025</p>
-            <h2 className="text-2xl md:text-3xl mt-2 font-semibold leading-snug">
+            <p className="text-sm text-black/60 uppercase tracking-wider font-sans">November 3, 2025</p>
+            <h2 className="text-2xl md:text-2xl mt-2 font-semibold leading-snug">
               From Pipeline Dreams to Solar Futures:</h2>
-                <h2>
-              The New Extractive Politics
-           </h2>
+                <h2 className="text-2xl md:text-2xl mt-2 font-semibold leading-snug">The New Extractive Politics </h2>
             <p className="mt-4 text-gray-800 font-medium">Sarah Lopez</p>
           </div>
 
@@ -65,8 +62,8 @@ const LatestArticles = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 border-b border-black/30 pb-3 ">
           {/* Text Container */}
           <div className="flex flex-col justify-start items-start">
-            <p className="text-sm text-gray-500 uppercase">August 28, 2025</p>
-            <h2 className="text-2xl md:text-3xl mt-2 font-semibold leading-snug">
+            <p className="text-sm text-black/60 uppercase font-sans tracking-wider">August 28, 2025</p>
+            <h2 className="text-2xl md:text-2xl mt-2 font-semibold leading-snug">
               The Promise of Electrification
             </h2>
             <p className="mt-4 text-gray-800 font-medium">Harry Pitt Scott</p>
